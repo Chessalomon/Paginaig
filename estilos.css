@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: rgba(var(--b3f,250,250,250),1);}
+
+.tlf-img {
+margin-left: 18%;
+margin-top: 2rem;
+}
+
+
+.img1{
+    margin-left: -19.55rem;
+    margin-bottom: 68px;
+    animation-name: cuerpo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.img2{
+    margin-left: -15.8rem;
+    margin-bottom: 68px;
+    animation-name: cuerpo;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.img3{
+    margin-left: -15.8rem;
+    margin-bottom: 68px;
+    animation-name: cuerpo;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+.img4{
+    margin-left: -15.8rem;
+    margin-bottom: 68px;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes cuerpo {
+    0% { background-image: url(CSS/1.png);}
+
+    33%{ background-image: url(CSS/3.png);}
+
+    66%{opacity:0; background-image: url(CSS/4.png);}
+    
+    100%{opacity:0; background-image: url(CSS/5.png);}
+   
+}
+
+.Log{
+    display: block;
+    border: 1px solid #dbdbdb;
+    margin-left: 52.75%;
+    margin-top: -39.2rem;
+    height: 25rem;
+    width: 22rem;
+    text-align: center;
+    
+}
+
+.inputs{
+    display: block;
+    height: 39px;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-size: 12px;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    border: 1px solid #dbdbdb;
+    color: #0f0f0f;
+    text-indent: 7px;
+    margin-top: 6px;
+}
+
+*:focus {outline:none;} 
+
+.logo-ig{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.entrar{
+    margin-top: 14px;
+    width: 75%;
+    height: 30px;
+    color:#ffffff;
+    background-color: rgba(0,149,246,.3);
+    border: 0;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom:6px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+.raya{
+    display: flex;
+    background-color: #dbdbdb;
+    background-color: rgba(var(--b38,219,219,219),1);
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    height: 1px;
+    position: relative;
+    top: 0.45em;
+    width: 113px;
+
+}
+
+.O{
+    
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;  
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+    
+}
+
+
+
+.Z7p_S {margin: 10px 40px 18px;}
+
+.K-1uj {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.sesion{
+    text-decoration:none;
+    font-size: 14px;
+    color: #385185;
+    font-family: "Segoe UI";
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.contraseña{
+    font-size: 12px;
+    color: #00376b;
+    font-family: "Segoe UI";
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.cuenta{
+   margin-left: 52.75%;
+   margin-top: 10px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    padding: 23px 0;
+    width: 22rem;
+    text-align: center;
+    
+}
+
+span{
+    color:#0095f6;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.descarga{
+    font-family: "Segoe UI";
+    margin-left: 32%;
+    margin-top: 17px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Stores{
+display: flex;
+height: 40px;
+margin-left: 55.5%;
+margin-top: 20px;
+margin-bottom: 40px;
+    cursor: pointer;
+    
+}
+
+.Store2{margin-left: 8px;}
+
+section{height: 170px;}
+
+.footer-section, .footer-section2, .footer-section3{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Segoe UI";
+    cursor: pointer;
+    margin-left: 1.05%;
+     color: #4d4a4a;
+}
+.footer-section{margin-top: 30px;  }
+
+.footer-section:first-child{margin-left: 250px;}
+
+.footer-section2{margin-top: 10px;}
+
+.footer-section2:first-child{margin-left: 450px;}
+
+.footer-section3{margin-top: 17px;}
+
+.footer-section3:first-child{margin-left: 512px;}

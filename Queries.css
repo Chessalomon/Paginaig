@@ -1,0 +1,271 @@
+@media(max-width: 1320px){
+
+    .tlf-img{
+        margin-left: 15%;;
+    }
+    
+    .Log{
+        margin-left: 52.75%;    
+    }
+    .descarga{
+        margin-left: 33%;
+    }
+
+    .Stores{
+        margin-left: 56%;
+        cursor: pointer;
+    }
+    section{
+        margin-left: -2%;  
+    }
+}
+
+@media (max-width: 1200px){
+    .tlf-img{
+        margin-left: 10%;;
+    }
+    .Log{
+        margin-left: 52.75%;    
+    }
+    .descarga{
+        margin-left: 38%;
+        
+    }
+    section{
+        margin-left: -10%;  
+    }
+
+}
+
+@media (max-width: 1070px){
+    .tlf-img{
+        margin-left: 5%;;
+    }
+    .Log{
+        margin-left: 52.75%;    
+    }
+    .descarga{
+        margin-left: 40%;
+    }
+    section{
+        margin-left: -170px;  
+    }
+
+}
+
+@media (max-width: 1000px){
+    .tlf-img{
+        margin-left: 1%;;
+    }
+    .Log{
+        margin-left: 52.75%;    
+    }
+    .descarga{
+        margin-left: 44%;
+    }
+    section{
+        margin-left: -180px;  
+    }
+
+}
+
+@media (max-width: 980px){
+   
+    section{
+        margin-left: -210px;  
+    }
+
+}
+
+@media(max-width: 870px){
+    .tlf-img{
+       visibility: hidden;
+       
+    }
+    .Log{
+        margin-left: 30%;    
+    }
+    .cuenta{
+        margin-left: 30%;
+    }
+    .descarga{
+        margin-left: 1%;
+    }
+    .Stores{
+        margin-left: 34%;
+    }
+}
+
+@media(max-width: 850px){
+   
+   .footer-section:last-child{
+        margin-left: 585px;
+        margin-top: 5px;
+        
+}
+.footer-section:first-child{
+    margin-left: 270px;
+    
+    
+}
+.footer-section2:first-child{
+    margin-left: 425px;
+}
+.footer-section3:first-child{
+    margin-left: 500px;
+}
+}
+
+@media(max-width: 765px){
+   
+body{overflow-x: hidden;}
+.footer-section:nth-child(11){
+    margin-left:495px;
+    margin-right: 7px;
+        margin-top: 5px;
+}
+
+ .footer-section:last-child{
+   margin-left:0;     
+}
+
+.footer-section:first-child{
+    margin-left: 30%;;
+    
+    
+}
+.footer-section2:first-child{
+    margin-left: 385px;
+}
+.footer-section3:first-child{
+    margin-left: 440px;
+}
+
+.descarga{
+    margin-left: 2%;
+}
+.Stores{
+    margin-left: 32%;
+}
+.Log{
+    margin-left: 27%;
+}
+.cuenta{
+    margin-left: 27%;
+}
+}
+
+@media(max-width: 765px){
+    .footer-section:nth-child(10){
+        margin-left:52%;
+        margin-right: 7px;
+            margin-top: 5px;
+    }
+    .footer-section:nth-child(11){
+        margin-left:0;
+        margin-right: 7px;
+            margin-top: 5px;
+    }
+    .footer-section:first-child{
+    margin-left: 34%;;
+}
+.footer-section2:first-child{
+    margin-left: 41%;;
+}
+.footer-section3:first-child{
+    margin-left: 49%;;
+}
+
+}
+
+@media(max-width: 700px){
+    .Log, .cuenta{
+        margin-left: 24%;
+    }
+    .descarga{
+        margin-left: -1%;
+    }
+    .Stores{
+        margin-left: 29%;
+    }
+    .footer-section:nth-child(10){
+        margin-left:48%;
+        margin-right: 7px;
+            margin-top: 5px;
+    }
+    .footer-section:nth-child(11){
+        margin-left:0;
+        margin-right: 7px;
+            margin-top: 5px;
+    }
+    .footer-section:first-child{
+    margin-left: 30%;;
+}
+.footer-section2:first-child{
+    margin-left: 38%;;
+}
+.footer-section3:first-child{
+    margin-left: 44%;;
+}
+
+}
+
+@media(max-width: 700px){
+    .Log, .cuenta{margin-left:20%;}
+    .Stores{margin-left:26%;}
+    .footer-section:nth-child(9){
+        margin-left:41.5%;
+        margin-right: 7px;
+        margin-top: 5px;
+    }
+    .footer-section:nth-child(10){margin-left:0;}
+    .footer-section:first-child{margin-left: 36.5%;}
+    .footer-section2:first-child{margin-left: 38.5%;}
+    .footer-section3:first-child{margin-left: 46.5%;}
+
+}
+
+@media(max-width: 535px){
+  .Log, .cuenta{margin-left:16%;}
+  .Stores{margin-left:22%}
+
+}
+
+@media(max-width: 500px){
+    .footer-section:nth-child(8){
+        margin-left:36%;
+        margin-right: 7px;
+        margin-top: 5px;
+    }
+    .footer-section:nth-child(9){margin-left: 0;}
+    .footer-section:first-child{margin-left: 41.5%;}
+    section{height:190px;}
+    .descarga{margin-left: 4%;}
+    .Stores{margin-left: 24%;}
+  }
+
+  @media(max-width: 484px){
+      body{background-color: #0f0f0f;}
+    .footer-section:nth-child(8){
+        margin-left:41%;
+        margin-right: 7px;
+        margin-top: 5px;
+    }
+    .footer-section:last-child{
+        margin-left:60%;
+        margin-right: 7px;
+        margin-top: 5px;
+    }
+    
+    
+    .footer-section:first-child{margin-left: 41.5%;}
+    section{height:190px;}
+    .descarga{margin-left: 4%;}
+    .Stores{margin-left: 24%;}
+    .Log, .cuenta{margin-left:10%;}
+    .descarga{margin-left:-2%;}
+    .Stores{margin-left:18%;}
+    .footer-section:first-child{margin-left: 40.5%;}
+    .footer-section2:first-child{margin-left: 37%;}
+    .footer-section3:first-child{margin-left: 45.5%;}
+  }
